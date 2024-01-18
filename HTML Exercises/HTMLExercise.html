@@ -30,11 +30,14 @@
         <h2>Forms</h2>
         <label for="name ">Name:</label><br>
         <input type="text" id="name" name="name" required pattern="[a-zA-Z]*" minlength="2" title="Please Enter a valid name"><br>
+
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password" required minlength="8" title="Please Enter a Password with at least 8 characters"><br>
+
         <label for="gend">Gender:</label><br>
         Male: <input type="radio" id="male" name="gender" value="male" required><br>
         Female: <input type="radio" id="female" name="gender" value="female" required><br>
+
         <input type="checkbox" id="terms" name="terms" value="terms" readonly><label for="terms"> I accept the Terms and Conditions</label><br>
         <input type="submit" value="Submit" required>
     </form>
@@ -66,12 +69,14 @@
 
     <h2>Audio</h2>
     <audio controls>
-        <source src="https://www.youtube.com/watch?v=17Jq0QqK4k0.mp3" type="audio/mpeg">
+        <source src="cricket-sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
     </audio>
 
     <h2>Video</h2>
-    <video controls>
-        <source src="https://www.youtube.com/watch?v=fMiYAEj46Rc&t=39s.mp4" type="video/mp4">
+    <video width="800" height="460" controls>
+        <source src="Jingliu-tr.mp4" type="video/mp4">
+        Your browser does not support the Video element.
     </video>
 </body>
 </html>
