@@ -20,32 +20,35 @@
 
     <br>
 
-    <h2>Images</h2>
+    <h2>Image/s</h2>
     <img src="HSR-bg.png" alt="A beautiful landscape" width="500" height="300">
-    <figcaption>Into the Unknown</figcaption>
 
     <br>
 
     <form>
         <h2>Forms</h2>
-        <label for="name ">Name:</label><br>
+        <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required pattern="[a-zA-Z]*" minlength="2" title="Please Enter a valid name"><br>
 
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password" required minlength="8" title="Please Enter a Password with at least 8 characters"><br>
 
-        <label for="gend">Gender:</label><br>
-        Male: <input type="radio" id="male" name="gender" value="male" required><br>
-        Female: <input type="radio" id="female" name="gender" value="female" required><br>
+        <label for="gender">Gender:</label><br>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
 
-        <input type="checkbox" id="terms" name="terms" value="terms" readonly><label for="terms"> I accept the Terms and Conditions</label><br>
-        <input type="submit" value="Submit" required>
+        <input type="checkbox" id="terms" name="terms" value="terms" required>
+        <label for="terms">I accept the Terms and Conditions</label><br>
+        <input type="submit" value="Submit">
     </form>
 
     <br>
 
+    <h2>Tables</h2>
     <table>
-        <h2>Tables</h2>
         <thead>
             <tr>
                 <th>Name</th>
@@ -59,10 +62,12 @@
                 <td>25</td>
                 <td>New York</td>
             </tr>
-            <td>Jane</td>
-            <td>30</td>
-            <td>Los Angeles</td>
         </tbody>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
     </table>
 
     <br>
