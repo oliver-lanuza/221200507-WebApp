@@ -55,7 +55,7 @@
 
     <p>You <em>have</em> my word my friend!</p> <br>
 
-    <p style="font-family: 'Courier New', Courier, monospace;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minus a odio voluptas quo delectus sed accusamus officia rerum, harum alias atque possimus officiis dolorem veritatis fuga temporibus earum architecto?</p> <br>
+    <p> style="font-family: 'Courier New', Courier, monospace;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minus a odio voluptas quo delectus sed accusamus officia rerum, harum alias atque possimus officiis dolorem veritatis fuga temporibus earum architecto?</p> <br>
 
     <p><i>Lorem ipsum</i> dolor sit amet consectetur adipisicing elit. Cumque sint unde esse praesentium blanditiis ipsa, voluptatum officia aspernatur. Dolore aut facilis eaque libero neque ipsa ab eius at, est sapiente.</p> <br>
     
@@ -85,6 +85,40 @@
         ぁ <rp>(<rp><rt>いぅえ</rt></rp>)</rp>
     </ruby> <br>
 
-    
+    <p><s>Only 10 pieces are remaining</s></p>
+    <p>Please get them ASAP</p><br>
+
+    <p>Alpha:</p>
+    <p><samp>Target Found.<br>Press Y to initiate attack.</samp></p><br>
+
+    <big>This is Big!</big>
+    <small>This is Small!</small><br>
+
+    <strong>This is a Important Announcement!</strong><br>
+
+    <p>This Folder contains <sub>confidential files!.</sub></p><br>
+
+    <p>The Files contain <sup>malicious files!.</sup></p><br>
+
+    <button onclick="showContent()">Show Hidden Button</button>
+    <template>
+        <h2>Azur Lane</h2>
+        <img src="Noshiro.jpg" alt="Noshiro">
+    </template>
+    <script>
+        function showContent() {
+            let temp = document.getElementsByTagName("template")[0];
+            let clon = temp.content.cloneNode(true);
+            document.body.appendChild(clon);
+        }
+    </script><br>
+
+    <p>Maintenance from <time>3:00 PM</time> to <time>11:00 PM</time> tomorrow</p><br>
+
+    <p>This your <u>Commander</u> speaking.</p><br>
+
+    <p>The area of a circle is: 3.14 x <var>r squared</var>, where <var>r squared</var> is the radius.</p><br>
+
+    <p>To need to learn HTML, so that you can be familiar in creating a <wbr>Website</wbr> or https.</p><br>
 </body>
 </html>
