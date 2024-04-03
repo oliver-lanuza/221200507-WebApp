@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("/Index/Website/top_pfp.png") no-repeat center;
+    background: url("top_pfp.jpeg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -276,7 +276,7 @@ section .title::after{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
-    color: #fff; /* Add this line */
+    color: black; /* Add this line */
 }
 .skills .title::after{
     content: "what i know";
@@ -346,11 +346,11 @@ section .title::after{
 .skills-content .right .js::before{
     width: 60%;
 }
-.skills-content .right .comms::before{
+.skills-content .right .nka::before{
     width: 70%;
 }
-.skills-content .right .mgmt::before{
-    width: 70%;
+.skills-content .right .md::before{
+    width: 75%;
 }
 
 /* contact section styling */
